@@ -45,7 +45,9 @@ fun useDifferentRandomClasses(): String {
 }
 
 // Extension functions
-fun Int.r(): RationalNumber = RationalNumber(this, 1)
+fun Int.r(): RationalNumber{
+    return RationalNumber(this, 1)
+}
 
 fun Pair<Int, Int>.r(): RationalNumber = RationalNumber(first, second)
 
